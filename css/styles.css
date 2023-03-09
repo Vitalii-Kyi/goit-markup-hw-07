@@ -1,5 +1,4 @@
-/*--------General styles--------
-------test2*/
+/*--------General styles--------*/
 :root {
     --primary-brand-color: #4d5ae5;
     --pressed-state-color: #404bbf;
@@ -27,8 +26,10 @@ h6 {
 }
 
 ul {
-    margin: 0;
+    margin-top: 0;
+    margin-bottom: 0;
     padding-left: 0;
+    list-style: none;
 }
 
 button {
@@ -41,8 +42,14 @@ address {
 
 img {
     display: block;
+    max-width: 100%;
+    height: auto;
 }
-
+/*???*/
+input,
+textarea {
+    outline: none;
+}
 
 body {
     font-family: 'Roboto', sans-serif;
@@ -50,10 +57,9 @@ body {
 }
 
 .container {
-    width: 100%;
-    max-width: 1158px;
-    padding: 0 15px;
-    margin: 0 auto;
+    max-width: 428px;
+    padding: 0 16px;
+    /*margin: 0 auto;*/
     /*outline: 1px solid red;*/
 }
 
@@ -78,6 +84,16 @@ body {
     clip-path: inset(50%);
     margin: -1px;
   }
+
+/*sections 2 & 3*/
+.section-title {
+    text-align: center;
+    margin-bottom: 72px;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    color: var(--dark-color);
+}
 /*------------------------------*/
 
 
@@ -276,15 +292,6 @@ body {
     padding-bottom: 120px;
 }
 
-.services-title {
-    text-align: center;
-    margin-bottom: 72px;
-    font-size: 36px;
-    line-height: 1.11;
-    letter-spacing: 0.02em;
-    color: var(--dark-color);
-}
-
 .services-list {
     display: flex;
     justify-content: center;
@@ -300,17 +307,14 @@ body {
     padding-bottom: 120px;
     background-color: var(--light-color);
 }
-.team-title {
+/*.team-title {
     text-align: center;
     margin-bottom: 72px;
     font-size: 36px;
     line-height: 1.11;
+    letter-spacing: 0.02em;
     color: var(--dark-color);
-}
-
-.team-section {
-    background-color: var(--light-color);
-}
+}*/
 
 .team-list {
     display: flex;
