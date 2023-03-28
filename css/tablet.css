@@ -1,0 +1,216 @@
+@media screen and (min-width: 768px) {
+    .container {
+        max-width: 768px;
+    }
+
+    .mob-menu {
+        display: none;
+    }
+
+    .header {
+        border-bottom-style: solid;
+        border-bottom-color: var(--cloud-color);
+        border-bottom-width: 1px;
+        padding-bottom: 9px;
+    }
+
+    .header-container {
+        max-width: 768px;
+        align-items: center;
+    }
+
+    .header-list-container {
+        margin-right: 15px;
+    }
+
+    .header-navigation {
+        align-items: flex-end;
+        margin-right: 0;
+    }
+
+    .header-logo {
+        margin-right: 120px;
+    }
+
+    .header-list {
+        display: flex;
+        gap: 40px;
+    }
+
+    .address-list {
+        gap: 4px;
+        justify-content: flex-end;
+    }
+
+    .nav-link {
+        font-size: 12px;
+        line-height: 1.33;
+        letter-spacing: 0.04em;
+        color: var(--navy-blue-color);
+        transition-property: color;
+        transition-duration: 250ms;
+        position: relative;
+    }
+
+    .hero-section {
+        padding-top: 112px;
+        padding-bottom: 108px;
+        max-width: 768px;
+        height: 436px;
+    }
+
+    .hero-title {
+        max-width: 494px;
+        font-size: 55px;
+        line-height: 1.07;
+        margin-bottom: 40px;
+    }
+
+    .hero-section {
+        background-image: linear-gradient(var(--grey-color), var(--grey-color)),
+            url(../images/people-office-tablet.jpeg);
+    }
+
+    @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+        .hero-section {
+            background-image: linear-gradient(var(--grey-color), var(--grey-color)), url(../images/people-office-tablet-2x.jpeg);
+        }
+    }
+
+    .current-link::after {
+        content: "";
+        display: block;
+        position: absolute;
+        width: 100%;
+        height: 4px;
+        left: 0;
+        bottom: -20px;
+        border-radius: 2px;
+        background-color: var(--ocean-color);
+    }
+
+    .advantages-section {
+        padding-top: 96px;
+        padding-bottom: 96px;
+    }
+
+    .advantages-list {
+        flex-wrap: wrap;
+        column-gap: 24px;
+        row-gap: 72px;
+    }
+
+    .advantages-item {
+        max-width: 356px;
+        margin-bottom: 0;
+    }
+
+    .advantages-title {
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 1.11;
+        letter-spacing: 0.02em;
+        margin-bottom: 8px;
+    }
+
+    .advantages-text {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: var(--slate-color);
+    }
+
+    .team-section {
+        padding-top: 96px;
+        padding-bottom: 104px;
+    }
+
+    .team-list {
+        justify-content: center;
+        flex-wrap: wrap;
+        column-gap: 24px;
+        row-gap: 64px;
+    }
+
+    .team-list :last-child {
+        margin-bottom: 0;
+    }
+
+    .customers {
+        padding-top: 96px;
+        padding-bottom: 96px;
+    }
+
+    .customers-list {
+        justify-content: center;
+        flex-wrap: wrap;
+        column-gap: 24px;
+        row-gap: 72px;
+    }
+
+    .customers-link {
+        width: 168px;
+        height: 88px;
+    }
+
+    footer {
+        padding-top: 96px;
+        padding-bottom: 96px;
+        height: 454px;
+    }
+
+    .footer-invitation {
+        width: 264px;
+    }
+
+    .footer-container {
+        max-width: 552px;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .footer-logo {
+        justify-content: left;
+    }
+
+    .footer-box {
+        padding-bottom: 72px;
+    }
+
+    .footer-social-box {
+        margin-left: 24px;
+    }
+
+    .footer-title {
+        margin-top: 0;
+    }
+
+    .title-subscribe {
+        text-align: left;
+    }
+
+    .input-subscribe {
+        width: 264px;
+    }
+
+    .form-subscribe {
+        flex-direction: row;
+        gap: 24px;
+    }
+
+    .btn-subscribe {
+        margin-top: 0;
+    }
+
+    .modal {
+        width: 408px;
+        min-height: 586px;
+    }
+
+    .mobile-menu-btn {
+        display: none;
+    }
+}

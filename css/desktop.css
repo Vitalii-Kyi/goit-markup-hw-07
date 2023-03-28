@@ -1,0 +1,179 @@
+@media screen and (min-width: 1200px) {
+    .container {
+        max-width: 1158px;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .mob-menu {
+        display: none;
+    }
+
+    .header {
+        padding-bottom: 28px;
+    }
+
+    .header-container {
+        width: 1158px;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .nav-link {
+        font-size: 16px;
+    }
+
+    .header-list-container {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+    }
+
+    .current-link::after {
+        content: "";
+        bottom: -28px;
+    }
+
+    .hero-title {
+        margin-bottom: 48px;
+        max-width: 494px;
+    }
+
+    .hero-section {
+        max-width: 1440px;
+        height: 600px;
+        padding-top: 180px;
+        padding-bottom: 300px;
+        margin-left: auto;
+        margin-right: auto;
+        background-image: linear-gradient(var(--grey-color), var(--grey-color)),
+            url(../images/people-office.jpg);
+    }
+
+    @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+        .hero-section {
+            background-image: linear-gradient(var(--grey-color), var(--grey-color)), url(../images/people-office-2x.jpg);
+        }
+    }
+
+    .advantages-section {
+        padding-top: 112px;
+        padding-bottom: 120px;
+    }
+
+    .advantages-item {
+        width: 264px;
+    }
+
+    .advantages-list {
+        justify-content: space-between;
+    }
+
+    .advantages-title {
+        margin-top: 8px;
+        margin-bottom: 8px;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+    }
+
+    .advantages-text {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: var(--slate-color);
+    }
+
+    .advantages-icon {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 264px;
+        height: 112px;
+        background-color: var(--cloud-color);
+        border-radius: 4px;
+    }
+
+    /*--section2-What are we doing--*/
+
+    .services-title {
+        font-size: 36px;
+        line-height: 1.11;
+        text-align: center;
+        letter-spacing: 0.02em;
+        text-transform: capitalize;
+        margin-bottom: 72px;
+    }
+
+    .services-list {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 120px;
+    }
+
+    /*--section3-Our Team--*/
+
+    .team-section {
+        padding-top: 120px;
+        padding-bottom: 120px;
+    }
+
+    .team-list {
+        justify-content: space-between;
+    }
+
+    /* --------Customers---------------- */
+    .customers {
+        padding-top: 120px;
+        padding-bottom: 120px;
+    }
+
+    .customers-list {
+        justify-content: space-between;
+    }
+
+    .customers-link {
+        width: 168px;
+    }
+
+    /*------------------- Footer----------------------- */
+    footer {
+        padding-top: 100px;
+        padding-bottom: 100px;
+        background: var(--navy-blue-color);
+        height: 310px;
+    }
+
+    .footer-invitation {
+        max-width: 264px;
+    }
+
+    .footer-container {
+        justify-content: space-between;
+    }
+
+    .footer-title {
+        text-align: left;
+    }
+
+    .footer-subscribe {
+        justify-content: flex-end;
+    }
+
+    .title-subscribe {
+        margin-top: 0;
+    }
+
+    .footer-list {
+        padding-top: 16px;
+    }
+
+    .modal {
+        min-height: 584px;
+    }
+}
