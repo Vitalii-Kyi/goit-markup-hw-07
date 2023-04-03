@@ -1,179 +1,179 @@
 @media screen and (min-width: 1200px) {
-    .container {
-        max-width: 1158px;
-        padding-left: 0;
-        padding-right: 0;
+  .container {
+    max-width: 1158px;
+  }
+
+  /*--------HEADER--------*/
+
+  .header {
+    height: auto;
+    padding-top: 24px;
+    padding-bottom: 24px;
+  }
+
+  .address-list {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+  }
+
+  .address-mail,
+  .address-tel {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    /*color: var(--slate-color);*/
+  }
+
+  /*--------hero--------*/
+
+  .hero {
+    padding-top: 188px;
+    padding-bottom: 188px;
+    background-image: linear-gradient(var(--grey-color),
+        var(--grey-color)),
+      url(../images/people-office.jpg);
+  }
+
+  @media (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+    .hero {
+      background-image: linear-gradient(var(--grey-color),
+          var(--grey-color)),
+        url(../images/people-office-2x.jpg);
     }
+  }
 
-    .mob-menu {
-        display: none;
-    }
+  .hero-title {
+    margin-bottom: 48px;
+  }
 
-    .header {
-        padding-bottom: 28px;
-    }
+  /*--------advantages-section--------*/
 
-    .header-container {
-        width: 1158px;
-        align-items: center;
-        justify-content: space-between;
-    }
+  .advantages>.container {
+    max-width: 1158px;
+  }
 
-    .nav-link {
-        font-size: 16px;
-    }
+  .advantages {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
 
-    .header-list-container {
-        font-weight: 500;
-        font-size: 16px;
-        line-height: 1.5;
-        letter-spacing: 0.02em;
-    }
+  .advantages-list {
+    column-gap: 24px;
+  }
 
-    .current-link::after {
-        content: "";
-        bottom: -28px;
-    }
+  .advantages-item {
+    width: calc((100% - 72px) / 4);
+  }
 
-    .hero-title {
-        margin-bottom: 48px;
-        max-width: 494px;
-    }
+  .advantages-item-wrap {
+    width: 100%;
+    height: 112px;
+    margin-bottom: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--cloud-color);
+    border-radius: 4px;
+  }
 
-    .hero-section {
-        max-width: 1440px;
-        height: 600px;
-        padding-top: 180px;
-        padding-bottom: 300px;
-        margin-left: auto;
-        margin-right: auto;
-        background-image: linear-gradient(var(--grey-color), var(--grey-color)),
-            url(../images/people-office.jpg);
-    }
+  .advantages-title {
+    text-align: start;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+  }
 
-    @media (min-device-pixel-ratio: 2),
-    (min-resolution: 192dpi),
-    (min-resolution: 2dppx) {
-        .hero-section {
-            background-image: linear-gradient(var(--grey-color), var(--grey-color)), url(../images/people-office-2x.jpg);
-        }
-    }
+  /*--------services-section--------*/
 
-    .advantages-section {
-        padding-top: 112px;
-        padding-bottom: 120px;
-    }
+  .services>.container {
+    max-width: 1158px;
+  }
 
-    .advantages-item {
-        width: 264px;
-    }
+  .services {
+    display: block;
+  }
 
-    .advantages-list {
-        justify-content: space-between;
-    }
+  /*--------team-section--------*/
 
-    .advantages-title {
-        margin-top: 8px;
-        margin-bottom: 8px;
-        font-weight: 500;
-        font-size: 20px;
-        line-height: 1.2;
-        letter-spacing: 0.02em;
-    }
+  .team>.container {
+    max-width: 1158px;
+  }
 
-    .advantages-text {
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 1.5;
-        letter-spacing: 0.02em;
-        color: var(--slate-color);
-    }
+  .team {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
 
-    .advantages-icon {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        width: 264px;
-        height: 112px;
-        background-color: var(--cloud-color);
-        border-radius: 4px;
-    }
+  .team-card {
+    width: calc((100% - 72px) / 4);
+  }
 
-    /*--section2-What are we doing--*/
+  /*--------customers-section--------*/
 
-    .services-title {
-        font-size: 36px;
-        line-height: 1.11;
-        text-align: center;
-        letter-spacing: 0.02em;
-        text-transform: capitalize;
-        margin-bottom: 72px;
-    }
+  .customers>.container {
+    max-width: 1158px;
+  }
 
-    .services-list {
-        display: flex;
-        justify-content: space-between;
-        margin-bottom: 120px;
-    }
+  .customers {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
 
-    /*--section3-Our Team--*/
+  .customers-item {
+    width: calc((100% - 120px) / 6);
+    height: 88px;
+  }
 
-    .team-section {
-        padding-top: 120px;
-        padding-bottom: 120px;
-    }
+  /*--------FOOTER--------*/
 
-    .team-list {
-        justify-content: space-between;
-    }
+  .footer>.container {
+    max-width: 1158px;
+  }
 
-    /* --------Customers---------------- */
-    .customers {
-        padding-top: 120px;
-        padding-bottom: 120px;
-    }
+  .footer {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
 
-    .customers-list {
-        justify-content: space-between;
-    }
+  .footer .container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 0;
+  }
 
-    .customers-link {
-        width: 168px;
-    }
+  .footer-container {
+    margin-right: 120px;
+  }
 
-    /*------------------- Footer----------------------- */
-    footer {
-        padding-top: 100px;
-        padding-bottom: 100px;
-        background: var(--navy-blue-color);
-        height: 310px;
-    }
+  .footer-social-container {
+    margin-right: 80px;
+  }
 
-    .footer-invitation {
-        max-width: 264px;
-    }
+  .footer-subscribe-title {
+    margin-top: 0;
+  }
 
-    .footer-container {
-        justify-content: space-between;
-    }
+  /*--------PORTFOLIO--------*/
 
-    .footer-title {
-        text-align: left;
-    }
+  .portfolio {
+    padding-top: 96px;
+    padding-bottom: 120px;
+  }
 
-    .footer-subscribe {
-        justify-content: flex-end;
-    }
+  .portfolio-filter-list {
+    display: flex;
+    justify-content: center;
+    padding: 0px;
+    gap: 24px;
+    margin-bottom: 72px;
+  }
 
-    .title-subscribe {
-        margin-top: 0;
-    }
-
-    .footer-list {
-        padding-top: 16px;
-    }
-
-    .modal {
-        min-height: 584px;
-    }
+  .portfolio-project-item {
+    width: calc((100% - 48px) / 3);
+  }
 }
