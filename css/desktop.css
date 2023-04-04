@@ -170,8 +170,8 @@
   .portfolio-filter-list {
     display: flex;
     justify-content: center;
-    /*padding: 0px;*/
-    padding-top: 72px;
+    padding: 0px;
+    /*padding-top: 72px;*/
     gap: 24px;
     margin-bottom: 72px;
   }
